@@ -18,7 +18,7 @@ Public release of our data splits used for the results in the paper:
 
 
 ## Dataset splits
-In our paper, we used the [Waymo dataset] which consists of 1110 driving sequences collected under various weather and lighting conditions. 
+In our paper, we used the [Waymo dataset](https://waymo.com/) which consists of 1110 driving sequences collected under various weather and lighting conditions. 
 The Waymo open dataset includes 1110 driving sequences recorded with multiple cameras and lidars across a large variety of locations, road types and weather and lighting conditions. 
 Each driving sequence consists of a 20-s-long recording sampled at 10 Hz. Both 2D and 3D bounding boxes were manually generated for all frames and considering the following four categories of objects: vehicles; pedestrians; cyclists; and traffic signs.
 Additionally, we have partitioned the driving sequences into four broad subsets, namely day–fair; night–fair; day–rain; night–rain (see Table below for further details). 
