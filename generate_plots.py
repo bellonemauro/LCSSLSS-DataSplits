@@ -10,7 +10,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 results_folder = './results/'
-results_folder = './results/'
 
 tot_sets = 10
 valid_sets = 10
@@ -59,7 +58,7 @@ def plot_data(day_fair, day_rain, night_fair, night_rain, modality):
     axs[3].set_title('Night - Rain')
     axs[3].set_ylim(y_bottom_lim,y_upper_lim)
 
-    plt.savefig('results_{}.pdf'.format(modality),bbox_inches='tight')
+    plt.savefig('./results/img/results_{}.pdf'.format(modality),bbox_inches='tight')
 
 
 def fix_data(data,axs,cl):
