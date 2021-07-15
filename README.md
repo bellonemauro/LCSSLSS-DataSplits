@@ -5,12 +5,12 @@ Public release of our data splits used for the results in the paper:
 @ARTICLE{caltagirone2021dataset,
     author = {Caltagirone, Luca and Bellone, Mauro and Lennart, Svenson and Mattias, Wahde and Raivo, Sell},
      title = {Lidar-Camera Semi-Supervised Learning for Semantic Segmentation},
-   journal = {MDPI sensors},
-    volume = {0},
-    number = {0},
+   journal = {MDPI Sensors},
+    volume = {21},
+    number = {14},
       year = {2021},
-       url = {https://},
-       doi = {----add----},
+       url = {https://www.mdpi.com/1424-8220/21/14/4813},
+       doi = {10.3390/s21144813},
      pages = {000--000}
 }
 ```
